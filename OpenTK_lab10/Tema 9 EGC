@@ -1,0 +1,24 @@
+Tema 9 EGC
+Iroftei Dumitru-Andrei
+
+1.Utilizați pentru texturare imagini cu transparență și fără. Ce observați?
+Dacă folosim pentru texturare imagini cu transparență, atunci unele părți ale obiectului 3D vor fi transparente. Acest lucru se datorează faptului că valorile de transparență din imaginea de textură sunt folosite pentru a controla cât de transparentă este o anumită parte a obiectului. 
+	Dacă folosim pentru texturare imagini fără transparență, atunci toate părțile obiectului 3D vor fi opac. Acest lucru înseamnă că nu va exista niciun efect de transparență.
+
+2.Ce formate de imagine pot fi aplicate în procesul de texturare în OpenGL?
+	OpenGL acceptă o gamă largă de formate de imagine pentru textură. Formatele de imagine simple au o singură componentă de culoare, iar formatele de imagine complexe au mai multe componente de culoare. Formatele de imagine cu adâncime stochează informații despre adâncimea unui pixel, iar formatele de imagine cu culoare și adâncime stochează atât informații despre culoare, cât și informații despre adâncime.
+
+3.Specificați ce se întâmplă atunci când se modifică culoarea (prin
+manipularea canalelor RGB) obiectului texturat.
+	Modificarea culorii unui obiect texturat prin manipularea canalelor RGB modifică culoarea texturii în consecință. Acest lucru poate fi folosit pentru a crea o varietate de efecte, cum ar fi obiecte 3D cu aspect realist sau artistic.
+
+4.Ce deosebiri există între scena ce utilizează obiecte texturate în modul
+iluminare activat, respectiv dezactivat?
+
+	Modul iluminare activat
+Adaugă efecte de lumină și umbră
+Creează un aspect mai realist
+Modul iluminare dezactivat
+Ignoră efectele de lumină și umbră
+Creează un aspect mai simplu
+
